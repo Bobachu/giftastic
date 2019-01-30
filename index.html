@@ -8,11 +8,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>GifTastic</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <title>Totally Awesome Game Gifs</title>
 </head>
 
 <body>
+    <div class="container">
+        <h1 class="display-4">Totally Awesome Game Gifs!!!</h1>
 
+        <div id="game-buttons"></div>
+
+        <form id="game-entry">
+            <label for="game-input">Give me more games!!!</label>
+            <input type="text" id="game-input"><br>
+
+            <button id="more-games" type="submit" class="btn btn-danger">More Games!!</button>
+        </form>
+
+        <div class="row" id="gif-area"></div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>

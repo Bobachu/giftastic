@@ -1,0 +1,22 @@
+body {
+    background-image: url(../images/hexellence.png);
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+#more-games {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rating-text { 
+    text-align: center;
+}
