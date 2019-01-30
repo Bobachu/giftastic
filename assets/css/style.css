@@ -20,3 +20,7 @@ button {
 .rating-text { 
     text-align: center;
 }
+
+#gif-area {
+    margin-bottom: 25px;
+}
